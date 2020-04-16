@@ -6,8 +6,8 @@
 <a-scene>
    <!-- <a-scene color-space="sRGB" renderer="gammaOutput: true, physicallyCorrectLights: true"> -->
      <a-scene>
-      <a-asset-item id="body" src="Models/body.gltf"></a-asset-item>
-      <a-asset-item id="interio1" src="Models/Interio Amber.gltf"></a-asset-item>
+      <a-asset-item id="body" src="Models/Body.gltf"></a-asset-item>
+      <a-asset-item id="interio1" src="Models/interio.glb"></a-asset-item>
       <a-asset-item id="wheel" src="Models/Wheel.gltf"></a-asset-item>
       <a-asset-item id="lights" src="Models/2020_volvo_xc90_Glass.gltf"></a-asset-item>
       <a-asset id="sky2" src="Images/quattro.png"></a-asset>
@@ -22,7 +22,7 @@
 
     <!-- Default lighting injected by A-Frame. -->
 <!-- <a-entity light="type: ambient; color: #BBB"></a-entity> -->
-<a-entity light="type: directional; color: #FFF; intensity: 0.1" position="-0.5 1 1"></a-entity>
+<a-entity light="type: directional; color: #BBB; intensity: 0.01" position="2 10 -10"></a-entity>
 
 
     <a-sky src="#sky2"></a-sky>
